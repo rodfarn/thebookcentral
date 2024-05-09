@@ -1,5 +1,4 @@
 import Image from "next/image";
-import "./titulo.scss";
 import styles from "./styles/page.module.css"
 
 
@@ -38,10 +37,10 @@ export default function Home() {
         </p>
 
       <h2 className={styles.card}>New releases, classic authors, bestsellers and more
-        <description>
+        <description>&quot;
           Exploring new authors, including bestsellers, and sharing them within a community fosters a vibrant literary ecosystem. 
           Diverse voices enrich our reading experiences, offering fresh insights, captivating storytelling, and diverse perspectives.
-        </description> 
+          &quot;</description> 
       </h2>
 
       <p className={styles.card}>
@@ -56,8 +55,8 @@ export default function Home() {
 
       <h2 className={styles.card}>Join into a community
       <description>
-      Step into a vibrant community dedicated to the love of literature. Engage with fellow book enthusiasts, share your favorite reads, and discover new literary treasures together. Whether you're a lifelong bookworm or just starting your reading journey, our community welcomes all who share a passion for storytelling and the written word.
-      </description>
+      &quot;Step into a vibrant community dedicated to the love of literature. Engage with fellow book enthusiasts, share your favorite reads, and discover new literary treasures together. Whether you are a lifelong bookworm or just starting your reading journey, our community welcomes all who share a passion for storytelling and the written word.
+      &quot;</description>
       </h2>
 
       
