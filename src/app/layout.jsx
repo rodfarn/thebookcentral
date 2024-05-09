@@ -10,8 +10,7 @@ export default function RootLayout({ children }) {
     <body className={inter.className}>
     <div>
       <div className={styles.main}>
-      <h1>TheBook
-        Central</h1>
+      <h2>TheBook Central</h2>
       <h4>New releases </h4> 
       <h4>Classic authors</h4>
       <h4>Bestsellers</h4>
