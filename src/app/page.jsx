@@ -21,11 +21,11 @@ export default function Home() {
       height={1365}
       className={styles.image_title}
      />
-  <main className={styles.container}>
-      <h2 className={styles.card}>Discover the best books
-        <description>"Discover new perspectives and endless possibilities through reading. Books have the power to transport you to different worlds, broaden your understanding of diverse cultures, and spark your imagination, allowing you to explore beyond the confines of your own reality."
-        </description>
-      </h2>
+<main className={styles.container}>
+  <h2 className={styles.card}>Discover the best books
+    <description>&quot;Discover new perspectives and endless possibilities through reading. Books have the power to transport you to different worlds, broaden your understanding of diverse cultures, and spark your imagination, allowing you to explore beyond the confines of your own reality.&quot;
+    </description>
+  </h2>
 
       <p className={styles.card}>
         <Image
@@ -39,8 +39,8 @@ export default function Home() {
 
       <h2 className={styles.card}>New releases, classic authors, bestsellers and more
         <description>
-          "Exploring new authors, including bestsellers, and sharing them within a community fosters a vibrant literary ecosystem. 
-          Diverse voices enrich our reading experiences, offering fresh insights, captivating storytelling, and diverse perspectives."
+          Exploring new authors, including bestsellers, and sharing them within a community fosters a vibrant literary ecosystem. 
+          Diverse voices enrich our reading experiences, offering fresh insights, captivating storytelling, and diverse perspectives.
         </description> 
       </h2>
 
@@ -56,7 +56,7 @@ export default function Home() {
 
       <h2 className={styles.card}>Join into a community
       <description>
-      "Step into a vibrant community dedicated to the love of literature. Engage with fellow book enthusiasts, share your favorite reads, and discover new literary treasures together. Whether you're a lifelong bookworm or just starting your reading journey, our community welcomes all who share a passion for storytelling and the written word."
+      Step into a vibrant community dedicated to the love of literature. Engage with fellow book enthusiasts, share your favorite reads, and discover new literary treasures together. Whether you're a lifelong bookworm or just starting your reading journey, our community welcomes all who share a passion for storytelling and the written word.
       </description>
       </h2>
 
