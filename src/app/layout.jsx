@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import  {Inter} from "next/font/google";
 import "./globals.css";
 import styles from "./styles/page.module.css";
@@ -12,7 +14,7 @@ export default function RootLayout({ children }) {
     <div>
       <div className={styles.main}>
         <Image
-        src="/logothebook.png"
+        src='/logothebook.png'
         alt="logo principal"
         width={350}
         height={250}
@@ -26,7 +28,7 @@ export default function RootLayout({ children }) {
       <input
       className= {styles.input}
       type="text" 
-      placeholder="Búsqueda nueva...">
+      placeholder='Búsqueda nueva...'>
 
       </input>
       </label>
@@ -35,8 +37,8 @@ export default function RootLayout({ children }) {
   <footer className={styles.footer}>
   <div className={styles.footerItemStartEnd}>
   <Image
-        src="/logothebook.png"
-        alt="logo principal"
+        src='/logothebook.png'
+        alt='logo principal'
         width={350}
         height={250}
         className={styles.image_logo}
@@ -83,9 +85,9 @@ export default function RootLayout({ children }) {
     <input
       className= {styles.inputNews}
       type="text" 
-      placeholder="">
+      placeholder=''>
       </input>
-      <button className={styles.button} type="submit">Subscribe</button>
+      <button className={styles.button} type='submit'>Subscribe</button>
     </div>
 
     </footer>
