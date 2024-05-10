@@ -31,13 +31,15 @@
   padding: 2.5rem;
   height: 10vh;
   width: 100vw;
-  background-color: gradient( 
-    to bottom, 
-    transparent, 
-    rgb(255, 150, 30) );
   color: white;
-  position: fixed;
+  position: absolute;
   z-index: 2;
+}
+
+.image_logo{
+  width: 5.469rem;
+  height: 3.906rem;
+  margin-top: 1rem;
 }
 
 
@@ -51,19 +53,21 @@
   position: relative;
   display: block;
   mask-image: linear-gradient(to bottom, black 75%, transparent 97%);
+  position: relative;
+
 
 }
 
 
 
 .input{
-  width: 3rem;
-  height: 1.5rem;
+  width: 9.5rem;
+  height: 2.4rem;
   background-color: rgba(255, 255, 255, 0.002);
   border-radius: 1cap;
   border: 5px lightblue;
   color: white;
-  font-size: 1.1vw;
+  font-size: 1.5vw;
   padding-left: 1vw;
   background-color: rgb(231, 231, 231, 10%);
 
@@ -72,12 +76,11 @@
 .input::placeholder{
   color: rgb(255, 255, 255);
   font-weight: 550;
-  font-size: 1.2vw;
-  padding-left: 0.5vw;
+  font-size: .9rem;
 }
 
 .input:hover{
-  background-color: rgba(43, 33, 33, 0.433);
+  background-color: rgba(65, 65, 65, 0.433);
   transform:perspective(2rem) scale(1.1);
 }
 
@@ -89,7 +92,7 @@
   flex-wrap: wrap;
   padding: 1rem;
   backdrop-filter: blur(60px);
-  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(14, 13, 13), rgb(29, 34, 39));
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(27, 27, 27), rgb(0, 0, 0));
   color: white;
 }
 .card {
@@ -113,9 +116,56 @@
 
 }
 
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  width: 100vw;
+  min-height: 50vh;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(17, 17, 17));
+  color: white;
+}
+
+.footerItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 12rem;;
+  max-width: 12rem;
+  font-size: .8rem;
+}
+
+.footerItemStartEnd{
+  height: 12rem;
+  max-width: 15rem;
+  font-size: .8rem;
+  line-height: 1.3rem;
+}
 
 
-@media screen and (max-width: 1100px) {
+.inputNews{
+  width: 9.5rem;
+  height: 1.2rem;
+  border-radius: 1cap;
+  border: 5px lightblue;
+  color: white;
+  font-size: 1.5vw;
+  padding-left: 1vw;
+  background-color: rgb(231, 231, 231, 10%);
+}
+
+.button{
+  width: 4.5rem;
+  height: 1.2rem;
+  border-radius: 1cap;
+  background-color: rgba(255, 255, 255, 0.404);
+  color: rgb(255, 255, 255);
+  margin-left: 0.2rem;
+}
+
+@media screen and (max-width: 1050px) {
 
 
   .titulo{
@@ -138,6 +188,12 @@
     margin-bottom: 5rem;
    } 
 
+   .image_logo{
+    width: 4.5rem;
+    height: 4rem;
+  }
+  
+
    .image_title{
     width: 110%;
     height: 60vh;
@@ -155,8 +211,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     padding: 1rem;
-    background-image: linear-gradient(to bottom, rgb(3, 3, 3), rgb(14, 13, 13), rgb(29, 34, 39));
-    color: white;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(27, 27, 27), rgb(0, 0, 0));    color: white;
 
   }
 
@@ -177,7 +232,56 @@
   .image_card{
     max-width: 15rem;
     max-height: 15rem;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100vw;
+    min-height: 25vh;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(17, 17, 17));
+    color: white;
+  }
   
+  .footerItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10rem;
+    max-width: 12rem;
+    font-size: .5rem;
+    margin-top:0;
+  }
+  
+  .footerItemStartEnd{
+    height: 10rem;
+    max-width: 9rem;
+    font-size: .6rem;
+    line-height: .8rem;
+  }
+  
+  
+  .inputNews{
+    width: 5rem;
+    height: 1.2rem;
+    border-radius: 1cap;
+    border: 5px lightblue;
+    color: white;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    background-color: rgb(231, 231, 231, 10%);
+  }
+  
+  .button{
+    width: 3.5rem;
+    height: 1.2rem;
+    border-radius: 1cap;
+    background-color: rgba(255, 255, 255, 0.404);
+    color: rgb(255, 255, 255);
+    margin-left: 0.2rem;
+    font-size: .5rem;
   }
   } 
 

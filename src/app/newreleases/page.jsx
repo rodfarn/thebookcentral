@@ -2,7 +2,7 @@
 export default function NuevosLanzamientos() {
     return (
         <div>
-            <h1>SEXO</h1>
+            <h1>DATA</h1>
         </div>
     );
 }
